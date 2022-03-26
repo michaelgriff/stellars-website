@@ -8,7 +8,6 @@ import {
   SidebarLink,
   SideBtnWrap,
   SidebarImage,
-  SidebarRoute,
 } from "./SidebarElements";
 import { FaInstagram, FaTwitter, FaDiscord } from "react-icons/fa";
 

@@ -9,7 +9,6 @@ import {
   NavItem,
   NavLinks,
   NavBtn,
-  NavBtnLink,
   NavImage,
 } from "./NavbarElements";
 import logo from "../../images/stellars-logo.png";
