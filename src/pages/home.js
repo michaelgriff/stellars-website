@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Banner from "../components/Banner";
 import About from "../components/About";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
@@ -16,7 +17,7 @@ const Home = () => {
     <div>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
-      {/* <Banner /> */}
+      <Banner />
       <About />
       <Team />
       <Faq />

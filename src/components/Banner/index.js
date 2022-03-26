@@ -5,7 +5,7 @@ import "../../styles.css";
 const Banner = () => {
   return (
     // <img id="banner-image" src={banner} alt={"banner"} />;
-    <video width={1440} height={810} autoplay muted>
+    <video class="video" autoPlay muted loop>
       <source src={banner} type={"video/mp4"} />
     </video>
   );
