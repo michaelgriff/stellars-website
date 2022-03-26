@@ -123,7 +123,7 @@ const Dropdown = styled.div`
   }
 `;
 
-const faq = () => {
+const Faq = () => {
   const [clicked, setClicked] = useState(false);
 
   const toggle = (index) => {
@@ -171,4 +171,4 @@ const faq = () => {
   );
 };
 
-export default faq;
+export default Faq;

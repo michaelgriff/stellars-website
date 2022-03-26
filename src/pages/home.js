@@ -17,7 +17,7 @@ const Home = () => {
     <div>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
-      <Banner />
+      {/* <Banner /> */}
       <About />
       <Team />
       <Faq />
