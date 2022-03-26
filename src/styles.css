@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap");
+body {
+  margin: 0px;
+  margin-right: -2px;
+  padding: 0px;
+  /* font-size: 22px; */
+  overflow-x: hidden;
+  color: white;
+}
+
+#stellars-logo {
+  height: 50px;
+  width: auto;
+}
+
+#banner-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  /* margin-top: 80px; */
+  margin-bottom: -1px;
+}
+
+p {
+  margin: 0px;
+  padding-top: 15px;
+  font-family: Fredoka;
+  font-size: 20px;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-family: Fredoka;
+  padding-top: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  font-family: Fredoka;
+  /* padding-top: 30px; */
+  margin: 10px 0;
+}
+
+.rounded-corners {
+  border-radius: 50px;
+}
+
+.white-text {
+  color: white;
+}
+
+.vertical-align {
+  align-self: center;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.centered-image {
+  display: block;
+  margin: auto;
+}
+
+.smaller-text {
+  font-size: 12px;
+}
+
+.black {
+  color: #000;
+}
+
+.new-line {
+  white-space: pre-line;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
