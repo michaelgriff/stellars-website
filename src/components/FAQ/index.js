@@ -11,7 +11,7 @@ const FaqSection = styled.div`
   justify-content: center;
   position: relative;
   height: 100%;
-  background: #8a81bd;
+  background: #d2d3dc;
   padding-bottom: 30px;
 `;
 
@@ -19,24 +19,21 @@ const Container = styled.div`
   top: 3%;
   margin: 0px 100px;
   width: 70%;
-  padding-top: 10px;
+  padding-top: 30px;
   @media screen and (max-width: 768px) {
     margin: 0px;
   }
 `;
 
-const RoundedWrap = styled.div`
-  background: #fff;
-  colour: #000;
+const Wrap = styled.div`
+  colour: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   text-align: center;
   cursor: pointer;
-  margin-top: 10px;
-  border-radius: 20px 20px 20px 20px;
-  border-style: solid;
+  border-bottom-style: solid;
   border-color: #000;
   border-width: medium;
 
@@ -60,18 +57,16 @@ const RoundedWrap = styled.div`
   }
 `;
 
-const Wrap = styled.div`
-  background: #fff;
-  colour: #000;
+const TopWrap = styled.div`
+  colour: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   text-align: center;
   cursor: pointer;
-  margin-top: 10px;
-  border-radius: 20px 20px 0px 0px;
-  border-style: solid;
+  border-bottom-style: solid;
+  border-top-style: solid;
   border-color: #000;
   border-width: medium;
 
@@ -85,18 +80,18 @@ const Wrap = styled.div`
       padding: 1.8rem;
       font-size: 0.9rem;
     }
+
     span {
       margin-right: 0rem;
     }
   }
-
   span {
     margin-right: 1.5rem;
   }
 `;
 
 const Dropdown = styled.div`
-  background: #cdcaef;
+  // background: #cdcaef;
   color: #fff;
   width: 100%;
   height: auto;
@@ -104,8 +99,7 @@ const Dropdown = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 0px 0px 20px 20px;
-  border-style: solid;
+  border-bottom-style: solid;
   border-color: #000;
   border-width: 0px medium medium;
   //   margin: 0px 40px;
@@ -137,26 +131,23 @@ const Faq = () => {
   return (
     <IconContext.Provider value={{ color: "000", size: "25px" }}>
       <FaqSection>
-        <h1 class="white-text">FAQ</h1>
+        <h1>FAQ</h1>
         <Container>
           {Data.map((item, index) => {
             return (
               <>
-                {clicked === index ? (
+                {index === 0 ? (
+                  <TopWrap onClick={() => toggle(index)} key={index}>
+                    <h1>{item.question}</h1>
+                    <span>{clicked === index ? <FiMinus /> : <FiPlus />}</span>
+                  </TopWrap>
+                ) : (
                   <Wrap onClick={() => toggle(index)} key={index}>
                     <h1>{item.question}</h1>
                     <span>{clicked === index ? <FiMinus /> : <FiPlus />}</span>
                   </Wrap>
-                ) : (
-                  <RoundedWrap onClick={() => toggle(index)} key={index}>
-                    <h1>{item.question}</h1>
-                    <span>{clicked === index ? <FiMinus /> : <FiPlus />}</span>
-                  </RoundedWrap>
                 )}
-                {/* <Wrap onClick={() => toggle(index)} key={index}>
-                  <h1 class="black-text">{item.question}</h1>
-                  <span>{clicked === index ? <FiMinus /> : <FiPlus />}</span>
-                </Wrap> */}
+
                 {clicked === index ? (
                   <Dropdown>
                     <p className="new-line">{item.answer}</p>
