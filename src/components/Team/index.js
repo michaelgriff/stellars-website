@@ -1,6 +1,12 @@
 import React from "react";
 import { TeamContainer, TeamRow, Member, SocialRow } from "./TeamElements";
-import stellar from "../../images/stellar1.jpeg";
+import jacob from "../../images/jacob.JPG";
+import mel from "../../images/mel.JPG";
+import ria from "../../images/ria.JPG";
+import pavel from "../../images/pavel.JPG";
+import bri from "../../images/bri.JPG";
+import natalie from "../../images/natalie.JPG";
+import mike from "../../images/mike.jpeg";
 import { FaTwitter, FaMedium } from "react-icons/fa";
 
 const Team = () => {
@@ -11,7 +17,7 @@ const Team = () => {
         <Member>
           <img
             class="rounded-corners"
-            src={stellar}
+            src={jacob}
             alt={"stellar"}
             height={300}
             width={300}
@@ -28,7 +34,7 @@ const Team = () => {
         <Member>
           <img
             class="rounded-corners"
-            src={stellar}
+            src={mel}
             alt={"stellar"}
             height={300}
             width={300}
@@ -45,7 +51,7 @@ const Team = () => {
         <Member>
           <img
             class="rounded-corners"
-            src={stellar}
+            src={ria}
             alt={"stellar"}
             height={300}
             width={300}
@@ -62,7 +68,22 @@ const Team = () => {
         <Member>
           <img
             class="rounded-corners"
-            src={stellar}
+            src={natalie}
+            alt={"stellar"}
+            height={300}
+            width={300}
+          />
+          <p class="centered-text">Natalie Jo Gay</p>
+          <p class="centered-text smaller-text">Position</p>
+          <SocialRow>
+            <FaTwitter class="black" size={30} />
+            <FaMedium class="black" size={30} />
+          </SocialRow>
+        </Member>
+        <Member>
+          <img
+            class="rounded-corners"
+            src={mike}
             alt={"stellar"}
             height={300}
             width={300}
@@ -77,28 +98,13 @@ const Team = () => {
         <Member>
           <img
             class="rounded-corners"
-            src={stellar}
+            src={pavel}
             alt={"stellar"}
             height={300}
             width={300}
           />
-          <p class="centered-text">Jonathan Washington</p>
-          <p class="centered-text smaller-text">COMMUNITY MANAGER</p>
-          <SocialRow>
-            <FaTwitter class="black" size={30} />
-            <FaMedium class="black" size={30} />
-          </SocialRow>
-        </Member>
-        <Member>
-          <img
-            class="rounded-corners"
-            src={stellar}
-            alt={"stellar"}
-            height={300}
-            width={300}
-          />
-          <p class="centered-text">Eddie Molina</p>
-          <p class="centered-text smaller-text">SOFTWARE DEVELOPER</p>
+          <p class="centered-text">Pavel Stuchlik</p>
+          <p class="centered-text smaller-text">Position</p>
           <SocialRow>
             <FaTwitter class="black" size={30} />
             <FaMedium class="black" size={30} />
@@ -109,28 +115,13 @@ const Team = () => {
         <Member>
           <img
             class="rounded-corners"
-            src={stellar}
+            src={bri}
             alt={"stellar"}
             height={300}
             width={300}
           />
-          <p class="centered-text">Lia Ray</p>
-          <p class="centered-text smaller-text">THE INSPIRATION</p>
-          <SocialRow>
-            <FaTwitter class="black" size={30} />
-            <FaMedium class="black" size={30} />
-          </SocialRow>
-        </Member>
-        <Member>
-          <img
-            class="rounded-corners"
-            src={stellar}
-            alt={"stellar"}
-            height={300}
-            width={300}
-          />
-          <p class="centered-text">Ben Lang</p>
-          <p class="centered-text smaller-text">ADVISOR</p>
+          <p class="centered-text">Bri</p>
+          <p class="centered-text smaller-text">THE ARTIST</p>
           <SocialRow>
             <FaTwitter class="black" size={30} />
             <FaMedium class="black" size={30} />

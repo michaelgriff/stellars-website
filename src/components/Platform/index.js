@@ -5,9 +5,9 @@ const Platform = () => {
   return (
     <PlatformContainer>
       <PlatformWrapper>
-        <h1 class="white-text">The Platform</h1>
+        <h1 class="white-text">Stellar Space</h1>
         <p class="white-text">
-          Stellars Space is a platform. A destination for positive
+          Stellar Space is a platform. A destination for positive
           transformation. Self-work may be personal, but it’s the only way we’re
           able to show up in full for others. Like anything, it’s a process. So
           a little support goes a long way.

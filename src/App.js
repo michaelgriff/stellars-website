@@ -11,9 +11,9 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/platform" element={<PlatformPage />} />
-        <Route path="/roadmap" element={<RoadmapPage />} />
-        <Route path="/charity" element={<CharityPage />} />
+        <Route path="/stellarspace" element={<PlatformPage />} />
+        <Route path="/visionboard" element={<RoadmapPage />} />
+        {/* <Route path="/charity" element={<CharityPage />} /> */}
         <Route path="/gallery" element={<GalleryPage />} />
       </Routes>
     </Router>

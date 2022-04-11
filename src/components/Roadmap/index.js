@@ -14,17 +14,17 @@ import teal from "../../images/teal-gem.png";
 const Roadmap = () => {
   return (
     <RoadmapContainer>
-      <h1>Roadmap</h1>
+      <h1>Vision Board</h1>
       <RoadmapSection>
         <h2>WELCOME TO STELLARS SPACE</h2>
         <RoadmapContent>
-          <img
+          {/* <img
             class="vertical-align"
             src={blue}
             alt={"blue"}
             width={100}
             height={100}
-          />
+          /> */}
           <RoadmapText>
             <p>
               Build a community of stellars who share our vision to help and
@@ -45,13 +45,13 @@ const Roadmap = () => {
       <RoadmapSection>
         <h2>STELLARS LAUNCH</h2>
         <RoadmapContent>
-          <img
+          {/* <img
             class="vertical-align"
             src={green}
             alt={"green"}
             width={100}
             height={100}
-          />
+          /> */}
           <RoadmapText>
             <p>Official presale and public sales go live</p>
             <p>
@@ -68,13 +68,13 @@ const Roadmap = () => {
       <RoadmapSection>
         <h2>STELLARS MINT OUT</h2>
         <RoadmapContent>
-          <img
+          {/* <img
             class="vertical-align"
             src={orange}
             alt={"orange"}
             width={100}
             height={100}
-          />
+          /> */}
           <RoadmapText>
             <p>Continue building Stellars Space</p>
             <p>
@@ -92,13 +92,13 @@ const Roadmap = () => {
       <RoadmapSection>
         <h2>STELLARS SPACE IS COMPLETED</h2>
         <RoadmapContent>
-          <img
+          {/* <img
             class="vertical-align"
             src={pink}
             alt={"pink"}
             width={100}
             height={100}
-          />
+          /> */}
           <RoadmapText>
             <p>
               Stellars Space is live! NFT holders become the creator and share
@@ -114,13 +114,13 @@ const Roadmap = () => {
       <RoadmapSection>
         <h2>WHAT DOES THE FUTURE HOLD?</h2>
         <RoadmapContent>
-          <img
+          {/* <img
             class="vertical-align"
             src={teal}
             alt={"teal"}
             width={100}
             height={100}
-          />
+          /> */}
           <RoadmapText>
             <p>
               We are exploring the metaverse, getting exclusive merch for the

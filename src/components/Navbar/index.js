@@ -32,13 +32,13 @@ const Navbar = ({ toggle }) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="/platform">platform</NavLinks>
+              <NavLinks to="/stellarspace">stellarspace</NavLinks>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLinks to="/charity">charity</NavLinks>
-            </NavItem>
+            </NavItem> */}
             <NavItem>
-              <NavLinks to="/roadmap">roadmap</NavLinks>
+              <NavLinks to="/visionboard">vision board</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="/gallery">gallery</NavLinks>

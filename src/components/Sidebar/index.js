@@ -19,14 +19,14 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink onClick={toggle} to="/platform">
-            platform
+          <SidebarLink onClick={toggle} to="/stellarspace">
+            stellarspace
           </SidebarLink>
-          <SidebarLink onClick={toggle} to="/charity">
+          {/* <SidebarLink onClick={toggle} to="/charity">
             charity
-          </SidebarLink>
-          <SidebarLink onClick={toggle} to="/roadmap">
-            roadmap
+          </SidebarLink> */}
+          <SidebarLink onClick={toggle} to="/visionboard">
+            vision board
           </SidebarLink>
           <SidebarLink onClick={toggle} to="/gallery">
             gallery
