@@ -5,11 +5,11 @@ import {
   RoadmapContent,
   RoadmapText,
 } from "./RoadmapElements";
-import blue from "../../images/blue-gem.png";
-import green from "../../images/green-gem.png";
-import orange from "../../images/orange-gem.png";
-import pink from "../../images/pink-gem.png";
-import teal from "../../images/teal-gem.png";
+// import blue from "../../images/blue-gem.png";
+// import green from "../../images/green-gem.png";
+// import orange from "../../images/orange-gem.png";
+// import pink from "../../images/pink-gem.png";
+// import teal from "../../images/teal-gem.png";
 
 const Roadmap = () => {
   return (
