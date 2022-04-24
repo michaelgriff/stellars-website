@@ -11,7 +11,7 @@ const FaqSection = styled.div`
   justify-content: center;
   position: relative;
   height: 100%;
-  background: #d2d3dc;
+  background: #fff;
   padding-bottom: 30px;
 `;
 

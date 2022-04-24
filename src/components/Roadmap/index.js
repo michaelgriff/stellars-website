@@ -14,9 +14,9 @@ import {
 const Roadmap = () => {
   return (
     <RoadmapContainer>
-      <h1>Vision Board</h1>
+      <h1 class="white-text">Vision Board</h1>
       <RoadmapSection>
-        <h2>WELCOME TO STELLARS SPACE</h2>
+        <h2>PHASE 1 - STELLAR SPACE</h2>
         <RoadmapContent>
           {/* <img
             class="vertical-align"
@@ -27,23 +27,20 @@ const Roadmap = () => {
           /> */}
           <RoadmapText>
             <p>
-              Build a community of stellars who share our vision to help and
-              inspire each other
-            </p>
-            <p>
-              Create a supportive and helpful community. Where we host ama’s,
-              live podcasts, and classes in the discord.
-            </p>
-            <p>
-              Give out whitelist spots to kind and committed members of the
-              Stellars community on Discord and Twitter. Inspire, support, love,
-              believe, and help others.
+              When we first created Stellars we wanted to bring value before our
+              launch by hosting holistic wellness classes with different
+              teachers. Insightful life stories, inspirational podcasts with
+              special guests, community members, and team members. Our goal was
+              to create a space of inspiration, creation, and love. We wanted
+              people to feel at ease. We wanted to build a community where we
+              all support, inspire, and believe in each other. We are a
+              community of self believers. We are all outstanding.
             </p>
           </RoadmapText>
         </RoadmapContent>
       </RoadmapSection>
       <RoadmapSection>
-        <h2>STELLARS LAUNCH</h2>
+        <h2>PHASE 2 - STELLARS FUND</h2>
         <RoadmapContent>
           {/* <img
             class="vertical-align"
@@ -53,20 +50,17 @@ const Roadmap = () => {
             height={100}
           /> */}
           <RoadmapText>
-            <p>Official presale and public sales go live</p>
             <p>
-              250 Samaritans will be held for giveaways, collabs, teachers, and
-              post mint marketing
-            </p>
-            <p>
-              3 Eth will be donated to the charity wallet of the community's
-              choice every 25% of sales
+              After the sell out of Stellars, 50% of the mint revenue will go
+              back into the project to ensure longevity of this project and help
+              fund the project’s vision board. Owning a Stellar can also be used
+              to apply for paid positions within the community.
             </p>
           </RoadmapText>
         </RoadmapContent>
       </RoadmapSection>
       <RoadmapSection>
-        <h2>STELLARS MINT OUT</h2>
+        <h2>PHASE 3 - GIVE BACK</h2>
         <RoadmapContent>
           {/* <img
             class="vertical-align"
@@ -76,15 +70,15 @@ const Roadmap = () => {
             height={100}
           /> */}
           <RoadmapText>
-            <p>Continue building Stellars Space</p>
             <p>
-              Go to in real life Charity events where the community decides
-              which charity we donate to and go to. We hope to see you guys
-              there
-            </p>
-            <p>
-              Continue having Ama’s, live podcasts, and classes for you guys
-              while Stellars Space is being built, we’re almost there!
+              After sell out, Lia Ray (Jacob Ray’s little sister) wanted to give
+              you guys something special. She Created 300 tiny miracles which is
+              the name of her bracelet to raffle out to holders. In addition, we
+              have partnered with Frequency Mind to give a 3 months free trial
+              to their platform available to all of our minters. We will
+              continue providing daily Hosting holistic wellness classes with
+              different teachers, deep meaningful podcasts and AMA’s with
+              special guests, and insightful life stories.
             </p>
           </RoadmapText>
         </RoadmapContent>

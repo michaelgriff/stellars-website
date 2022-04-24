@@ -32,16 +32,42 @@ const Navbar = ({ toggle }) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="/stellarspace">stellarspace</NavLinks>
+              <NavLinks smooth={true} offset={-80} to="about">
+                who are we
+              </NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks smooth={true} offset={-80} to="stellarspace">
+                stellarspace
+              </NavLinks>
             </NavItem>
             {/* <NavItem>
               <NavLinks to="/charity">charity</NavLinks>
             </NavItem> */}
             <NavItem>
-              <NavLinks to="/visionboard">vision board</NavLinks>
+              <NavLinks smooth={true} offset={-80} to="collection">
+                collection
+              </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="/gallery">gallery</NavLinks>
+              <NavLinks smooth={true} offset={-80} to="visionboard">
+                vision board
+              </NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks smooth={true} offset={-80} to="team">
+                team
+              </NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks smooth={true} offset={-80} to="faq">
+                faq
+              </NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks smooth={true} offset={-80} to="collabs">
+                collabs
+              </NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>

@@ -5,7 +5,7 @@ const Gallery = () => {
   return (
     <GalleryContainer>
       <GalleryWrapper>
-        <h1 class="white-text">Gallery Coming Soon!</h1>
+        <h1>Gallery Coming Soon!</h1>
       </GalleryWrapper>
     </GalleryContainer>
   );

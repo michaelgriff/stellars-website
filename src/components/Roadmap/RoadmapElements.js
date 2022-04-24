@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const RoadmapContainer = styled.div`
-  background-color: #d2d3dc;
+  background-color: #7376b8;
   margin: 0px;
   padding-bottom: 30px;
 `;

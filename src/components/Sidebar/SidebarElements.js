@@ -1,13 +1,13 @@
 import styled from "styled-components";
 import { FaTimes } from "react-icons/fa";
-import { Link as LinkR } from "react-router-dom";
+import { Link as LinkS } from "react-scroll";
 
 export const SidebarContainer = styled.aside`
   position: fixed;
   z-index: 999;
   width: 100%;
   height: 100%;
-  background: #655ca5;
+  background: #7376b8;
   display: grid;
   align-items: center;
   top: 0;
@@ -46,7 +46,7 @@ export const SidebarMenu = styled.ul`
   }
 `;
 
-export const SidebarLink = styled(LinkR)`
+export const SidebarLink = styled(LinkS)`
   @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@100&display=swap");
   font-family: Fredoka;
   font-size: 20px;

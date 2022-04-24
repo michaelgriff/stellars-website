@@ -19,17 +19,44 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink onClick={toggle} to="/stellarspace">
-            stellarspace
+          <SidebarLink to="about" onClick={toggle} smooth={true} offset={-80}>
+            who are we
           </SidebarLink>
           {/* <SidebarLink onClick={toggle} to="/charity">
             charity
           </SidebarLink> */}
-          <SidebarLink onClick={toggle} to="/visionboard">
-            vision board
+          <SidebarLink
+            to="stellarspace"
+            onClick={toggle}
+            smooth={true}
+            offset={-80}
+          >
+            stellarspace
           </SidebarLink>
-          <SidebarLink onClick={toggle} to="/gallery">
-            gallery
+          <SidebarLink
+            to="collection"
+            onClick={toggle}
+            smooth={true}
+            offset={-80}
+          >
+            collection
+          </SidebarLink>
+          <SidebarLink
+            to="visionboard"
+            onClick={toggle}
+            smooth={true}
+            offset={-80}
+          >
+            visionboard
+          </SidebarLink>
+          <SidebarLink to="team" onClick={toggle} smooth={true} offset={-80}>
+            team
+          </SidebarLink>
+          <SidebarLink to="faq" onClick={toggle} smooth={true} offset={-80}>
+            faq
+          </SidebarLink>
+          <SidebarLink to="collabs" onClick={toggle} smooth={true} offset={-80}>
+            collabs
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>

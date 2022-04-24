@@ -6,7 +6,7 @@ const About = () => {
   return (
     <AboutContainer>
       <AboutWrapper>
-        <h1>About</h1>
+        <h1>Who are we?</h1>
         <p>
           We are all here for a reason. This is our purpose, and it’s shown to
           us by the dreams that animate our waking life.

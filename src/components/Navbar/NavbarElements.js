@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
+import { Link as LinkS } from "react-scroll";
 
 export const Nav = styled.nav`
   background: #7376b8;
@@ -39,7 +40,7 @@ export const NavLogo = styled(LinkR)`
 export const MobileIcon = styled.div`
   display: none;
 
-  @media screen and (max-width: 895px) {
+  @media screen and (max-width: 1043px) {
     display: block;
     position: absolute;
     top: 0;
@@ -58,26 +59,26 @@ export const NavMenu = styled.ul`
   text-align: center;
   margin-right: -10px;
 
-  @media screen and (max-width: 895px) {
+  @media screen and (max-width: 1043px) {
     display: none;
   }
 `;
 
 export const NavItem = styled.li`
   height: 80px;
-  margin-top: 51px;
+  margin-top: 63px;
 `;
 
-export const NavLinks = styled(LinkR)`
+export const NavLinks = styled(LinkS)`
     @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@100&display=swap");
     font-family: Fredoka;
     font-weight: 10px;
-    font-size: 20px;
+    font-size: 15px;
     color: #fff;
     diplay: flex;
     align-items; center;
     text-decoration: none;
-    padding: 0px 1rem;
+    padding: 0px 1rem 0px;
     margin: auto;
     height: 100%;
     cursor: pointer;
@@ -110,7 +111,7 @@ export const NavBtn = styled.nav`
   align-items: center;
   margin-top: 30px;
 
-  @media screen and (max-width: 895px) {
+  @media screen and (max-width: 1043px) {
     display: none;
   }
 `;
