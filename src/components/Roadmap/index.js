@@ -10,12 +10,24 @@ import {
 // import orange from "../../images/orange-gem.png";
 // import pink from "../../images/pink-gem.png";
 // import teal from "../../images/teal-gem.png";
+import indigo from "../../images/indigo-glow.png";
+import green from "../../images/green-glow.png";
+import orange from "../../images/orange-glow.png";
+import red from "../../images/red-glow.png";
+import yellow from "../../images/yellow-glow.png";
 
 const Roadmap = () => {
   return (
     <RoadmapContainer>
-      <h1 class="white-text">Vision Board</h1>
+      <h1 class="white-text">VISION BOARD</h1>
       <RoadmapSection>
+        <img
+          class="centered"
+          src={indigo}
+          alt={"glow"}
+          width={65}
+          height={65}
+        />
         <h2>PHASE 1 - STELLAR SPACE</h2>
         <RoadmapContent>
           {/* <img
@@ -40,6 +52,13 @@ const Roadmap = () => {
         </RoadmapContent>
       </RoadmapSection>
       <RoadmapSection>
+        <img
+          class="centered"
+          src={orange}
+          alt={"glow"}
+          width={65}
+          height={65}
+        />
         <h2>PHASE 2 - STELLARS FUND</h2>
         <RoadmapContent>
           {/* <img
@@ -60,6 +79,13 @@ const Roadmap = () => {
         </RoadmapContent>
       </RoadmapSection>
       <RoadmapSection>
+        <img
+          class="centered"
+          src={yellow}
+          alt={"glow"}
+          width={65}
+          height={65}
+        />
         <h2>PHASE 3 - GIVE BACK</h2>
         <RoadmapContent>
           {/* <img
@@ -84,6 +110,7 @@ const Roadmap = () => {
         </RoadmapContent>
       </RoadmapSection>
       <RoadmapSection>
+        <img class="centered" src={red} alt={"glow"} width={65} height={65} />
         <h2>STELLARS SPACE IS COMPLETED</h2>
         <RoadmapContent>
           {/* <img
@@ -106,6 +133,7 @@ const Roadmap = () => {
         </RoadmapContent>
       </RoadmapSection>
       <RoadmapSection>
+        <img class="centered" src={green} alt={"glow"} width={65} height={65} />
         <h2>WHAT DOES THE FUTURE HOLD?</h2>
         <RoadmapContent>
           {/* <img

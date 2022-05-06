@@ -1,12 +1,23 @@
 import React from "react";
-import { AboutContainer, AboutWrapper, ImageWrapper } from "./AboutElements";
+import {
+  AboutContainer,
+  AboutWrapper,
+  ImageWrapper,
+  TitleWrapper,
+} from "./AboutElements";
 import stellar from "../../images/stellar1.jpeg";
+import glow from "../../images/glow-ball.png";
+import who from "../../images/whoarewe.png";
 
 const About = () => {
   return (
     <AboutContainer>
       <AboutWrapper>
-        <h1>Who are we?</h1>
+        <TitleWrapper>
+          <img class="glow" src={glow} alt={"glow"} width={50} height={50} />
+          <h1>WHO ARE WE?</h1>
+          <img class="glow" src={glow} alt={"glow"} width={50} height={50} />
+        </TitleWrapper>
         <p>
           We are all here for a reason. This is our purpose, and it’s shown to
           us by the dreams that animate our waking life.
@@ -49,57 +60,7 @@ const About = () => {
           in purpose.
         </p>
       </AboutWrapper>
-      <ImageWrapper>
-        <img
-          class="rounded-corners"
-          src={stellar}
-          alt={"stellar"}
-          height={100}
-          width={100}
-        />
-        <img
-          class="rounded-corners"
-          src={stellar}
-          alt={"stellar"}
-          height={100}
-          width={100}
-        />
-        <img
-          class="rounded-corners"
-          src={stellar}
-          alt={"stellar"}
-          height={100}
-          width={100}
-        />
-        <img
-          class="rounded-corners"
-          src={stellar}
-          alt={"stellar"}
-          height={100}
-          width={100}
-        />
-        <img
-          class="rounded-corners"
-          src={stellar}
-          alt={"stellar"}
-          height={100}
-          width={100}
-        />
-        <img
-          class="rounded-corners"
-          src={stellar}
-          alt={"stellar"}
-          height={100}
-          width={100}
-        />
-        <img
-          class="rounded-corners"
-          src={stellar}
-          alt={"stellar"}
-          height={100}
-          width={100}
-        />
-      </ImageWrapper>
+      <img class="who" src={who} alt={"who"} />
     </AboutContainer>
   );
 };

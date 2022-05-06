@@ -86,6 +86,40 @@ h2 {
   margin-bottom: -4px;
 }
 
+.glow {
+  padding: 30px 40px 0px;
+}
+
+.who {
+  width: 85%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.responsive {
+  width: 500px;
+  height: 500px;
+}
+
+@media screen and (max-width: 1121px) {
+  .responsive {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+}
+
+.centered {
+  display: block;
+  margin: auto;
+}
+
+.collection {
+  border-radius: 25px;
+}
+
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

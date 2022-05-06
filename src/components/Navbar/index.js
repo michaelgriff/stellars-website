@@ -1,5 +1,11 @@
 import React from "react";
-import { FaBars, FaInstagram, FaTwitter, FaDiscord } from "react-icons/fa";
+import {
+  FaBars,
+  FaInstagram,
+  FaTwitter,
+  FaDiscord,
+  FaMedium,
+} from "react-icons/fa";
 import {
   Nav,
   NavbarContainer,
@@ -38,7 +44,7 @@ const Navbar = ({ toggle }) => {
             </NavItem>
             <NavItem>
               <NavLinks smooth={true} offset={-80} to="stellarspace">
-                stellarspace
+                stellar stories
               </NavLinks>
             </NavItem>
             {/* <NavItem>
@@ -73,6 +79,9 @@ const Navbar = ({ toggle }) => {
           <NavBtn>
             <NavImage href="https://twitter.com/ledgersnft">
               <FaTwitter size={22} />
+            </NavImage>
+            <NavImage href="https://discord.gg/ledgersnft">
+              <FaMedium size={22} />
             </NavImage>
             <NavImage href="https://www.instagram.com/ledgersnft">
               <FaInstagram size={22} />

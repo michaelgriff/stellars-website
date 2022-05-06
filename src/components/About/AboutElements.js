@@ -17,3 +17,10 @@ export const ImageWrapper = styled.div`
   justify-content: space-evenly;
   align-items: center;
 `;
+
+export const TitleWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+`;

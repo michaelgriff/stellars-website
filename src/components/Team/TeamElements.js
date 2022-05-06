@@ -26,6 +26,6 @@ export const SocialRow = styled.div`
   justify-content: space-evenly;
   align-items: center;
   padding-top: 20px;
-  width: 50%;
+  width: 70%;
   margin: auto;
 `;

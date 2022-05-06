@@ -31,7 +31,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             smooth={true}
             offset={-80}
           >
-            stellarspace
+            stellar stories
           </SidebarLink>
           <SidebarLink
             to="collection"
